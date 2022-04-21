@@ -1,3 +1,4 @@
+/*-------------- Global CSS --------------*/
 header#hero {
   background-color: #6F4C5B;
   color: #F5E8C7;
@@ -16,6 +17,30 @@ p {
   font-weight: 400;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 232, 199, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav-link {
+font-weight: 300;
+color: #F5E8C7 !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+
+/*-------------- Index.ejs specific --------------*/
+
 section#pricing {
   background-color: #6F4C5B;
   color: #F5E8C7;
@@ -28,23 +53,6 @@ button.hero-button {
   color:#F5E8C7;
 }
 
-.navbar-toggler {
-  border: none;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 232, 199, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.nav-link {
-  font-weight: 300;
-  color: #F5E8C7 !important;
-}
-
-.montserrat {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-}
 
 .btn-dark:hover {
   background-color: #0b0c0c;
@@ -129,6 +137,10 @@ button.hero-button {
   color: #742d4c;
 }
 
+.pricing-points {
+  font-size: 13px;
+}
+
 #navbar {
   background-color: #6F4C5B !important;
 }
@@ -174,4 +186,50 @@ button.hero-button {
 
 #pricing {
   padding: 7% 2%;
+}
+
+/*-------------- Contact.ejs Specific --------------*/
+#contact {
+  background-color: #6F4C5B;
+  padding: 7% 10%;
+  color: #F5E8C7;
+  text-align: center;
+  height: 90vh;
+}
+
+.contact-form {
+  background-color: #DEBA9D;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+button.contact-button {
+  border: none;
+  padding: 8px 14px;
+  background-color: #4e3540;
+  color: #F5E8C7;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in;
+}
+
+button.contact-button:hover {
+  background-color: #9E7777;
+}
+
+/*-------------- Footer Partial Specific --------------*/
+
+a#footer-text {
+  color: #4e3540;
+}
+
+a#footer-text:visited {
+  color: #892852;
+}
+
+#footer {
+  background-color: #9E7777;
+  color:#F5E8C7;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
 }
