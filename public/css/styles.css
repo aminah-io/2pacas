@@ -1,0 +1,30 @@
+html {
+}
+
+main {
+}
+
+header {
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+#trusted {
+
+}
+
+.trusted {
+  opacity: 0.5;
+}
+
+button {
+  background-color: #b55;
+}
