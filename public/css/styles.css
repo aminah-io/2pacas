@@ -118,10 +118,15 @@ button.hero-button {
 }
 
 .pricing-cards {
-  margin: 5% 1%;
+  margin: 3% 1%;
   background-color: #F5E8C7;
   color: #6F4C5B;
-  padding: 5% 2%;
+  padding: 5% 1%;
+  width: 16rem;
+}
+
+.price {
+  color: #742d4c;
 }
 
 #navbar {
@@ -168,5 +173,5 @@ button.hero-button {
 }
 
 #pricing {
-  padding: 7% 5%;
+  padding: 7% 2%;
 }
