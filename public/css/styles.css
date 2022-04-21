@@ -65,6 +65,7 @@ button.hero-button {
 
 .btn-outline-light:hover {
   background-color: #f5e8c741 !important;
+  color: #F5E8C7;
 }
 
 .trusted {
@@ -216,6 +217,30 @@ button.contact-button:hover {
   background-color: #9E7777;
 }
 
+/*-------------- Signup.ejs Specific --------------*/
+#signup {
+  height: 90vh;
+  background-color: #6F4C5B;
+  padding: 7% 10%;
+  color: #DEBA9D;
+}
+
+#signup-header-box {
+  background-color: #DEBA9D;
+  color: #563b46;
+  text-align: center;
+}
+
+#reach-out-btn {
+  background-color: #6F4C5B;
+  color: #F5E8C7;
+}
+
+#reach-out-btn:hover {
+  background-color: #5c3f4c;
+  color: #F5E8C7;
+}
+
 /*-------------- Footer Partial Specific --------------*/
 
 a#footer-text {
@@ -223,7 +248,7 @@ a#footer-text {
 }
 
 a#footer-text:visited {
-  color: #892852;
+  color: #321d26;
 }
 
 #footer {
