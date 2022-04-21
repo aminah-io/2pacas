@@ -4,7 +4,7 @@
   "description": "An app for alpacas dating and mating. Use it to find the perfect mate for your alpaca.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "aminah.io",
   "license": "ISC",
