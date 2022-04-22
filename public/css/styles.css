@@ -132,15 +132,36 @@ button.apple-btn {
 }
 
 .pricing-cards {
-  margin: 3% 1%;
   background-color: #F5E8C7;
   color: #6F4C5B;
   padding: 5% 1%;
-  width: 16rem;
 }
 
 .price {
   color: #742d4c;
+}
+
+.card {
+  width: 16rem;
+  margin: 5% 2%;
+  border: 0;
+}
+
+.card {
+  --bs-gutter-x: 0;
+}
+
+.card-header {
+  background-color: #c5bca5;
+  color: #6F4C5B;
+  border: 0;
+  width: 100%;
+}
+
+.card-body {
+  background-color: #fcf4dd;
+  color: #6F4C5B;
+  border-radius: 3px;
 }
 
 .pricing-points {
