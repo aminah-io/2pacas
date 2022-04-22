@@ -53,9 +53,14 @@ button.hero-button {
   color:#F5E8C7;
 }
 
+button.apple-btn {
+  background-color: #F5E8C7;
+  color:#6F4C5B;
+}
 
-.btn-dark:hover {
-  background-color: #0b0c0c;
+
+.apple-btn:hover {
+  background-color: #F5E8C760;
   color:#F5E8C7;
 }
 
@@ -219,10 +224,10 @@ button.contact-button:hover {
 
 /*-------------- Signup.ejs Specific --------------*/
 #signup {
-  height: 90vh;
   background-color: #6F4C5B;
   padding: 7% 10%;
   color: #DEBA9D;
+  height: 110vh;
 }
 
 #signup-header-box {
