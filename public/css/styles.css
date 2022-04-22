@@ -2,7 +2,7 @@
 header#hero {
   background-color: #6F4C5B;
   color: #F5E8C7;
-  padding: 7% 12%;
+  padding: 7% 12% 11%;
   /* position: relative;
   z-index: 1; */
 }
@@ -46,6 +46,9 @@ section#pricing {
   color: #F5E8C7;
 }
 
+.hero-buttons {
+  display: inline-block;
+}
 
 button.hero-button {
   /* position: relative;
@@ -173,14 +176,17 @@ button.apple-btn {
 }
 
 #hero-image {
-  transform: rotate(15deg);
-  width: 70%;
+  transform: rotate(5deg);
+  width: 28%;
+  height: auto;
+  position: absolute;
+  /* right: -30%; */
 }
 
 #trusted {
-  /* position: absolute;
-  z-index: 1000;
-  margin-top: -160px; */
+  position: relative;
+  /* margin-top: -25%; */
+  z-index: 1;
   padding: 7% 12%;
   background-color: #F5E8C7;
   color: #6F4C5B;
@@ -225,7 +231,7 @@ button.apple-btn {
 }
 
 .contact-form {
-  background-color: #DEBA9D;
+  background-color: #F5E8C7;
   padding: 30px;
   border-radius: 3px;
 }
@@ -247,17 +253,18 @@ button.contact-button:hover {
 #signup {
   background-color: #6F4C5B;
   padding: 7% 10%;
-  color: #DEBA9D;
-  height: 110vh;
+  color: #F5E8C7;
+  height: 83vh;
 }
 
 #signup-header-box {
-  background-color: #DEBA9D;
+  background-color: #F5E8C7;
   color: #563b46;
   text-align: center;
 }
 
 #reach-out-btn {
+  margin-top: 20px;
   background-color: #6F4C5B;
   color: #F5E8C7;
 }
@@ -283,4 +290,32 @@ a#footer-text:visited {
   padding: 5px;
   font-size: 14px;
   text-align: center;
+}
+
+@media (max-width: 770px) {
+  #hero-image {
+    position: relative;
+    transform: rotate(0deg);
+    width: 75%;
+    height: auto;
+    right: -5%;
+  }
+
+  #trusted {
+    position: relative;
+    margin-top: -45%;
+    z-index: 1;
+  }
+
+  header#hero {
+    text-align: center;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #signup {
+    height: 130vh;
+  }
 }
